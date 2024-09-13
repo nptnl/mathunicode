@@ -1,0 +1,13 @@
+\newenvironment{amatrix}[2]{%
+  \left[\begin{array}{@{}*{#1}{c}|*{#2}{c}@{}}
+}{%
+  \end{array}\right]
+}
+
+\newenvironment{problem}[2]{
+    {\noindent \textbf{Problem #1}} \vspace{1em} \\
+
+    #2 \vspace{1em}
+
+    {\noindent \textbf{Solution:}} \vspace{1em} \\
+}{\newpage}
