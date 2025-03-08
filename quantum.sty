@@ -18,9 +18,13 @@
 \newcommand{\Braket}[2]{\left\langle #1 \mid #2 \right\rangle}
 \newcommand{\angles}[1]{\langle #1 \rangle}
 \newcommand{\Angles}[1]{\left\langle #1 \right\rangle}
+\newcommand{\butterfly}[1]{\ket{#1} \bra{#1}}
+\newcommand{\Butterfly}[1]{\Ket{#1} \Bra{#1}}
 
-\newcommand{\ymx}[1]{#1 \! \! \! /}
-\newcommand{\ov}[1]{\overline{#1}}
-
+\newcommand{\gammaslash}[1]{#1 \! \! \! /}
 \newcommand{\had}{\frac{1}{√2}}
 \newcommand{\haf}{\frac{ℏ}{2}}
+
+\newcommand{\ov}[2]{\overset{#2}{#1}}
+\newcommand{\un}[2]{\underset{#2}{#1}}
+\newcommand{\ovun}[3]{\un{\ov{#1}{#2}}{#3}}
